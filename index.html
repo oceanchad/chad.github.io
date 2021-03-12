@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0039)http://cs.stanford.edu/people/karpathy/ -->
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,63 +11,57 @@
   <link href="static/css/style.css" rel="stylesheet">
   <link href="static/js/bootstrap.min.js" rel="stylesheet">
   <link href="static/css" rel='stylesheet' type='text/css'>
-<!-- Tracking code -->
-<script type="text/javascript" async="" src="static/js/ga.js"></script><script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-3698471-13']);
-  _gaq.push(['_trackPageview']);
+  <!-- Tracking code -->
+  <script type="text/javascript" async="" src="static/js/ga.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3698471-13']);
+    _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
 
-</script><style type="text/css"></style>
+  </script>
+  <style type="text/css"></style>
 </head>
 
 <body onload="start()">
 
-<div id="header" class="bg1">
-  <div id="headerblob">
-    <img src="static/pic/me.jpg" class="rounded-circle imgme">
-    <div id="headertext">
-      <div id="htname">Luca Hung</div>
-      <div id="htdesc">Graduate Student at NTU, looking for summer intern</div>
-      <div id="htem">mandychad12@gmail.com</div>
-      <div id="icons">
-        <div class="svgico">
-          <a href="https://www.youtube.com/user/MrMandychad12/videos?view_as=subscriber" target="_blank" rel="noreferrer noopener"><img src="static/pic/you.svg" width="50px"></a>
-        </div>
-        <div class="svgico">
-          <a href="https://www.linkedin.com/in/luca-hung-91a618117/" target="_blank" rel="noreferrer noopener"><img src="static/pic/link.svg" width="44px"></a>
-        </div>
-        <div class="svgico">
-          <a href="https://ychongme.blogspot.tw/" target="_blank" rel="noreferrer noopener"><img src="static/pic/blog.svg" width="48px"></a>
-        </div>
-        <div class="svgico">
-          <a href="https://drive.google.com/file/d/1PRjIT_9qDSpM9N4FBDxyWh8fITk15kh2/view?usp=sharing" target="_blank" rel="noreferrer noopener"><img src="static/pic/cv.svg" width="150px"></a>
+  <div id="header" class="bg1">
+    <div id="headerblob">
+      <img src="static/pic/me.jpg" class="rounded-circle imgme">
+      <div id="headertext">
+        <div id="htname">Luca Hung</div>
+        <div id="htdesc">Graduate Student at NTU, looking for summer intern</div>
+        <div id="htem">mandychad12@gmail.com</div>
+        <div id="icons">
+          <div class="svgico">
+            <a href="https://www.youtube.com/user/MrMandychad12/videos?view_as=subscriber" target="_blank"
+              rel="noreferrer noopener"><img src="static/pic/you.svg" width="50px"></a>
+          </div>
+          <div class="svgico">
+            <a href="https://www.linkedin.com/in/luca-hung-91a618117/" target="_blank" rel="noreferrer noopener"><img
+                src="static/pic/link.svg" width="44px"></a>
+          </div>
+          <div class="svgico">
+            <a href="https://ychongme.blogspot.tw/" target="_blank" rel="noreferrer noopener"><img
+                src="static/pic/blog.svg" width="48px"></a>
+          </div>
+          <div class="svgico">
+            <a href="https://drive.google.com/file/d/1PRjIT_9qDSpM9N4FBDxyWh8fITk15kh2/view?usp=sharing" target="_blank"
+              rel="noreferrer noopener"><img src="static/pic/cv.svg" width="150px"></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-
-<div class="container">
-
+  <div class="container">
     <div class="row">
-      
-      
-<!--       <div class="col-md-3">
-        <div class="pp">
-          <img class="noborder" src="static/pic/download.png" height="150">
-          <div style="font-size:18px; font-weight:300;" align="center">M.S. in Computer Science</div>
-          <div style="font-size:18px; font-weight:300;">NCCU</div>
-          <div style="font-size:18px; font-weight:300;">Aug 20 - Present</div>
-        </div>
-      </div> -->
       <div class="col-md-3">
         <div class="pp">
           <img class="noborder" src="static/pic/ntu.png" height="150">
@@ -75,7 +70,7 @@
           <div style="font-size:18px; font-weight:300;">Sep 20 - Sep 22</div>
         </div>
       </div>
-      
+
       <div class="col-md-3">
         <div class="pp">
           <img class="noborder" src="static/pic/walsin.jpg" height="150">
@@ -84,7 +79,7 @@
           <div style="font-size:18px; font-weight:300;">Feb 18 - Mar 19</div>
         </div>
       </div>
-      
+
 
       <div class="col-md-3">
         <div class="pp">
@@ -116,186 +111,253 @@
       <div class="col-md-3">
         <div class="pp">
           <img class="noborder" src="static/pic/NTOU.png" border="0" height="150">
-          <div style="font-size:18px; font-weight:300;" align="center">B.S. in Shipping & transportation  management</div>
+          <div style="font-size:18px; font-weight:300;" align="center">B.S. in Shipping & transportation management
+          </div>
           <div style="font-size:18px; font-weight:300;">National Taiwan Ocean University</div>
           <div style="font-size:18px; font-weight:300;">Sep 10 - Jan 15</div>
         </div>
       </div>
     </div>
-<div class="clearfix"></div>
-</div>
+    <div class="clearfix"></div>
+  </div>
 
-<div class="feature" style="font-size:18px; font-weight:300;margin-top:0px;margin-bottom:50px;">
+  <div class="feature" style="font-size:18px; font-weight:300;margin-top:0px;margin-bottom:50px;">
     <div class="logo"><img src="static/pic/bio.png" width="100"></div>
 
     <p style="font-size: 18px">
-        <br>&nbsp;&nbsp;Currently, I am graduate student in NTU. Looking for SE intern and Data Center intern.<br><br>
-  See my <a href="https://drive.google.com/open?id=1ntMfFc35JAVEP7NM8yPrFQBL3Hsndmvt">CV</a> for more details.
-  <br><br/>
-        <b>Pending skill: </b> Python. Machine Learning. Html. CSS. C/C++</p>
-
-
-</div>
-
-<hr class="soft"><br>
-<div class="container" align="center">
-    <h1>Golden circle</h1>
-    <a href='https://drive.google.com/open?id=1ntMfFc35JAVEP7NM8yPrFQBL3Hsndmvt' target="_blank" class="align-content-center"><img src="static/pic/Website.png" title="golden" alt="whyme?" width="1160" style="position: sticky"></a>
-</div>
-
-
-
-
-<br><br/>
-
-
-
-<div class="container" align="center">
-    <h1>Experience</h1>
-</div>
-
-<div class="wrap">
-  <div class="timeline">
-    <div class="year"><h2>2017</h2>
-      <div class="evt">
-        <div class="in">
-          <span class="date">
-            <span class="day">09</span>
-            <span class="month">Oct</span>
-          </span>
-        <img src="static/pic/msv.jpg" width="50"/><h2>MSV exhibition</h2>
-        <p class="data">●attending exhibition & visit customers</p>
-        <p class="data">●Discussion: Purchasing cooperation, Distributor strategy, Market investigation</p>
-        <p class="data">●Atlas Copco, Tri-matic, STAFF</p>
-        <p class="data" style="color: #990000">★1stMP:NT 3 million from Atlas copco</p>
-        <p class="data">●Czech Republic from Oct 09-25</p>
-      </div>
-      </div>
-
-        <div class="evt">
-        <div class="in">
-          <span class="date">
-            <span class="day">01</span>
-            <span class="month">Sep</span>
-          </span>
-        <img src="static/pic/ahte.png" width="50"/> <h2>AHTE exhibition</h2>
-        <p class="data">●attending exhibition & maintain customers</p>
-        <p class="data">●Discussion: Market trends, Partner strategy, Technical support</p>
-        <p class="data">●Ingersoll Rand, Wruth, MSC Industrial company</p>
-        <p class="data" style="color: #990000">★Growth: 5% from IR</p>
-        <p class="data">●Shanghai from Sep 01-10</p>
-      </div>
-      </div>
-
-        <div class="evt">
-        <div class="in">
-          <span class="date">
-            <span class="day">23</span>
-            <span class="month">Apr</span>
-          </span>
-        <img src="static/pic/ha.jpg" width="50"/><h2>Hannover Messe</h2>
-        <p class="data">●attending exhibition & co-orgainzer</p>
-        <p class="data">●Discussion: Purchasing cooperation, Distributor strategy, Market investigation</p>
-        <p class="data">●Germany from Apr 23-29</p>
-      </div>
-      </div>
-
-      <div class="evt">
-        <div class="in">
-          <span class="date">
-            <span class="day">19</span>
-            <span class="month">Mar</span>
-          </span>
-        <img src="static/pic/parker.png" width="60"/><h2>Business trip</h2>
-        <p class="data">●Maintain customers & Find potential</p>
-        <p class="data">●Discussion: Market trends, Partner strategy, Technical support</p>
-        <p class="data">●Parker, Pentair, Pneumatic sol., ZEDFLO, SAMT</p>
-        <p class="data" style="color: #990000">★New customers: 3% from SAMT and Pneumatic sol.</p>
-        <p class="data">●Australia & New Zealand from Mar 19 - Apr 3</p>
-      </div>
-      </div>
-
-    </div>
-
-
-<div class="container" align="center">
-    <h1>To be continued</h1>
-</div>
-    <div class="year"><h2>..</h2>
-      <div class="evt">
-        <div class="in">
-          <span class="date">
-            <span class="day">..</span>
-            <span class="month">..</span>
-          </span>
-        <h2>Title</h2>
-        <p class="data">first</p>
-      </div>
-      </div>
-
-        <div class="evt">
-        <div class="in">
-          <span class="date">
-            <span class="day">..</span>
-            <span class="month">..</span>
-          </span>
-        <h2>Title</h2>
-        <p class="data">first</p>
-      </div>
-      </div>
-
-      <div class="evt">
-        <div class="in">
-          <span class="date">
-            <span class="day">..</span>
-            <span class="month">..</span>
-          </span>
-        <h2>Title</h2>
-        <p class="data">first</p>
-      </div>
-      </div>
-    </div>
-
-
-
-
+      <br>&nbsp;&nbsp;Currently, I am graduate student in NTU. Looking for SE intern and Data Center intern.<br><br>
+      See my <a href="https://drive.google.com/file/d/1PRjIT_9qDSpM9N4FBDxyWh8fITk15kh2/view?usp=sharing">CV</a> for more details.
+      <br><br />
+      <b>Pending skill: </b> Python. Machine Learning. Html. CSS. C/C++
+    </p>
   </div>
-</div>
+  <hr class="soft"><br>
 
-<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script >$(function(){
-  $(window).scroll(function(){
-    $('.year').each(function(){
-      var year = $(this).find('h2').first().text();
-      if($(this).offset().top < $(document).scrollTop() +100){
-        $(this).find('.date').addClass('activeYear');
-           $('#dataYear').html(year);
-        }else{
-          $(this).find('.date').removeClass('activeYear');
-        }
+  <div class="content anchor" id="courses" align="center">
+    <div class="text">
+      <h3>Selected Course Project</h3>
+    </div>
+    <div id="clases">
+      <div class="text anchor">&nbsp;</div>
+      <div class="publication">
+        <div class="img"><img class="img_responsive" src="static/pic/ml_title.jpg" width="200px" alt="ml"></div>
+        <div class="text">
+          <div class="title">Hotel booking demand datasets</div> 
+          <div>
+            <span class="venue">Machine Learning 2020</span> /
+            <span class="tag"><a href="https://drive.google.com/file/d/1cPniR6HJsoOmQOEAMHgSWxb9f0T09oGy/view?usp=sharing">Report</a></span> / 
+            <span class="tag"><a href="https://www.csie.ntu.edu.tw/~htlin/course/ml20fall/project/project.pdf">Project Page</a></span>
+          </div>
+          <br>
+          <div>
+            Establishing 3 model to predict the Hotel booking demand on testing datasets.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="clases">
+      <div class="text anchor">&nbsp;</div>
+      <div class="publication">
+        <div class="img"><img class="img_responsive" src="https://storage.googleapis.com/kaggle-competitions/kaggle/5558/media/santander-banner-ts-660x.png" width="200px" alt="ml"></div>
+        <div class="text">
+          <div class="title">How to Make Money from the Rich</div> 
+          <div>
+            <span class="venue">Data Science 2020</span> /
+            <span class="tag"><a href="https://drive.google.com/file/d/1qhIgRztadB3bLHByrCMHj53yyFCnc37r/view?usp=sharing">Report</a></span> / 
+            <span class="tag"><a href="https://docs.google.com/presentation/d/1XDVo7vVYuu0qaUjgPkxuAhYhYQ-lFfzzdgyGW4WngOY/edit#slide=id.ga22e5e9e3f_0_36">Project Page</a></span>
+          </div>
+          <br>
+          <div>
+            Building Product Recommendation system
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="clases">
+      <div class="text anchor">&nbsp;</div>
+      <div class="publication">
+        <div class="img"><img class="img_responsive" src="https://cnlabs.in/wp-content/uploads/2016/12/Openflow.png" width="200px" alt="ml"></div>
+        <div class="text">
+          <div class="title">Use openflow to recover from link failure</div> 
+          <div>
+            <span class="venue">Virtual Network 2020</span> /
+            <span class="tag"><a href="https://drive.google.com/file/d/14C00qWA26LuqasZxaPiiDBI0kHlv4OFN/view?usp=sharing">Report</a></span> / 
+            <span class="tag"><a href="https://openflow.stanford.edu/display/ONL/POX+Wiki.html#POXWiki-openflow.discovery">Project Page</a></span>
+          </div>
+          <br>
+          <div>
+            Implementation of paper by using openflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <hr class="soft"><br>
+  <br><br />
+
+  <div class="container" align="center">
+    <div class="text" style="z-index: 1;position: relative;">
+      <h3>Working experience</h3>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="timeline">
+      <div class="year">
+        <h2>2017</h2>
+        <div class="evt">
+          <div class="in">
+            <span class="date">
+              <span class="day">09</span>
+              <span class="month">Oct</span>
+            </span>
+            <img src="static/pic/msv.jpg" width="50" />
+            <h2>MSV exhibition</h2>
+            <p class="data">●attending exhibition & visit customers</p>
+            <p class="data">●Discussion: Purchasing cooperation, Distributor strategy, Market investigation</p>
+            <p class="data">●Atlas Copco, Tri-matic, STAFF</p>
+            <p class="data" style="color: #990000">★1stMP:NT 3 million from Atlas copco</p>
+            <p class="data">●Czech Republic from Oct 09-25</p>
+          </div>
+        </div>
+
+        <div class="evt">
+          <div class="in">
+            <span class="date">
+              <span class="day">01</span>
+              <span class="month">Sep</span>
+            </span>
+            <img src="static/pic/ahte.png" width="50" />
+            <h2>AHTE exhibition</h2>
+            <p class="data">●attending exhibition & maintain customers</p>
+            <p class="data">●Discussion: Market trends, Partner strategy, Technical support</p>
+            <p class="data">●Ingersoll Rand, Wruth, MSC Industrial company</p>
+            <p class="data" style="color: #990000">★Growth: 5% from IR</p>
+            <p class="data">●Shanghai from Sep 01-10</p>
+          </div>
+        </div>
+
+        <div class="evt">
+          <div class="in">
+            <span class="date">
+              <span class="day">23</span>
+              <span class="month">Apr</span>
+            </span>
+            <img src="static/pic/ha.jpg" width="50" />
+            <h2>Hannover Messe</h2>
+            <p class="data">●attending exhibition & co-orgainzer</p>
+            <p class="data">●Discussion: Purchasing cooperation, Distributor strategy, Market investigation</p>
+            <p class="data">●Germany from Apr 23-29</p>
+          </div>
+        </div>
+
+        <div class="evt">
+          <div class="in">
+            <span class="date">
+              <span class="day">19</span>
+              <span class="month">Mar</span>
+            </span>
+            <img src="static/pic/parker.png" width="60" />
+            <h2>Business trip</h2>
+            <p class="data">●Maintain customers & Find potential</p>
+            <p class="data">●Discussion: Market trends, Partner strategy, Technical support</p>
+            <p class="data">●Parker, Pentair, Pneumatic sol., ZEDFLO, SAMT</p>
+            <p class="data" style="color: #990000">★New customers: 3% from SAMT and Pneumatic sol.</p>
+            <p class="data">●Australia & New Zealand from Mar 19 - Apr 3</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="year">
+        <h2>..</h2>
+        <div class="evt">
+          <div class="in">
+            <span class="date">
+              <span class="day">..</span>
+              <span class="month">..</span>
+            </span>
+            <h2>Title</h2>
+            <p class="data">first</p>
+          </div>
+        </div>
+
+        <div class="evt">
+          <div class="in">
+            <span class="date">
+              <span class="day">..</span>
+              <span class="month">..</span>
+            </span>
+            <h2>Title</h2>
+            <p class="data">first</p>
+          </div>
+        </div>
+
+        <div class="evt">
+          <div class="in">
+            <span class="date">
+              <span class="day">..</span>
+              <span class="month">..</span>
+            </span>
+            <h2>Title</h2>
+            <p class="data">first</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <script
+    src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script>$(function () {
+      $(window).scroll(function () {
+        $('.year').each(function () {
+          var year = $(this).find('h2').first().text();
+          if ($(this).offset().top < $(document).scrollTop() + 100) {
+            $(this).find('.date').addClass('activeYear');
+            $('#dataYear').html(year);
+          } else {
+            $(this).find('.date').removeClass('activeYear');
+          }
+        });
+      });
     });
-  });
-});
-$(document).ready(function(){
-  var year = $('.year').find('h2').first().text();
-    $('#dataYear').html(year);
-  $('.year').first().find('.date').addClass('activeYear');
-});
+    $(document).ready(function () {
+      var year = $('.year').find('h2').first().text();
+      $('#dataYear').html(year);
+      $('.year').first().find('.date').addClass('activeYear');
+    });
 
 
 //# sourceURL=pen.js
-</script>
+  </script>
 
 
 
-<a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=ychong.me&digit=style/plain/10/&reloads=1" alt="" title="" border="0"></a><br /><a href="http://projectorlive.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a>
+  <a href="http://www.reliablecounter.com" target="_blank"><img
+      src="http://www.reliablecounter.com/count.php?page=ychong.me&digit=style/plain/10/&reloads=1" alt="" title=""
+      border="0"></a><br /><a href="http://projectorlive.com" target="_blank"
+    style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a>
 
 
-<br><br/>
-<div id="footer">
+  <br><br />
+  <div id="footer">
     <footer>
-        <p>© 2017 ychong.info All Rights Reserved. Contact information: <a href="mailto:mandychad12@gmail.com"><img
-          src="static/pic/gmail.png" width="40px"></a></p>
+      <p>© 2017 ychong.info All Rights Reserved. Contact information: <a href="mailto:mandychad12@gmail.com"><img
+            src="static/pic/gmail.png" width="40px"></a></p>
     </footer>
-</div>
-
+  </div>
